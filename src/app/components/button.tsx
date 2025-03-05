@@ -8,6 +8,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 	onClick?: () => void;
 }
 
+
 export function Button({ variant, size = 'md', disabled, onClick, children, className, ...rest }: ButtonProps) {
 	return (
 		<button
