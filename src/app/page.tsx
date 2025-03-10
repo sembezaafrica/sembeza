@@ -83,9 +83,9 @@ export default function Home() {
 
         {/* Content section */}
         <div className="bg-[#F6F4DE] text-[#505A28] font-semibold p-7 text-[17pt] pl-[10%] pr-[10%]">
-          <p>Uganda’s population is currently at 50 million and 
+          <p>Uganda&#39;s population is currently at 50 million and 
             is expected to reach 85 million by 2050. With a median 
-            age of just 16.7 years, the country’s youth face 
+            age of just 16.7 years, the country&#39;s youth face 
             significant challenges, including the fact that 35% of 
             women give birth by age 18.</p> <br></br>
           <p>These numbers highlight the urgent need for sustainable
@@ -96,7 +96,7 @@ export default function Home() {
             we provide a platform for young people, especially girls, 
             to build confidence, develop leadership skills, and delay 
             early pregnancies. Through structured sports programs, 
-            we aim to empower Uganda's youth, giving them the chance 
+            we aim to empower Uganda&#39;s youth, giving them the chance 
             to shape a better future for themselves and their communities.</p>
         </div>
       
