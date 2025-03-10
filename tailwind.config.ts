@@ -12,10 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-      fontWeight: {
-        'xlight': 100,  // Custom font weight, 100 (extra light)
-        'medium': 500,  // Custom font weight, 500 (medium)
-        'heavy': 800,   // Custom font weight, 800 (heavy)
+      screens: {
+        'my-custom-md': '900px',  // Your chosen 2-column width
+        'my-custom-xl': '1440px' // Your chosen 3-column width
       },
     },
   },
