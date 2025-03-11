@@ -46,7 +46,7 @@ export default function Home() {
             alt="background image"
           />
           {/* Text Overlay */}
-          <div className="absolute flex flex-col left-[10%] top-48 z-10 text-white w-[50%] leading-none">
+          <div className="absolute flex flex-col left-[10%] top-48 z-10 text-[#F6F4DE] w-[50%] leading-none">
             <p className="text-[36pt] font-extrabold">Empowering communities</p>
             <p className="text-[36pt] font-extrabold">through sports and</p>
             <p className="text-[36pt] font-extrabold">sustainability</p>
