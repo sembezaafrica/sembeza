@@ -12,10 +12,6 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-      screens: {
-        'my-custom-md': '900px',  // Your chosen 2-column width
-        'my-custom-xl': '1440px' // Your chosen 3-column width
-      },
     },
   },
   plugins: [],
