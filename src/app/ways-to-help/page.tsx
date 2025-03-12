@@ -2,8 +2,6 @@
 
 import Image from "next/image";
 import Head from "next/head";
-import { useEffect, useRef, useState } from 'react';
-import Link from "next/link";
 
 export default function WaysToHelp() {
 
@@ -28,7 +26,7 @@ export default function WaysToHelp() {
         {/* Content section */}
         <div className="bg-[#F6F4DE] text-[#505A28] font-bold p-7 text-[14pt] pl-[10%] pr-[10%] mb-20">
           <p>
-          Your donation to Sembeza Africa directly supports programs that empower Uganda's youth through 
+          Your donation to Sembeza Africa directly supports programs that empower Uganda&#39;s youth through 
           education, health, and leadership development, while promoting conservation and sustainable 
           communities. By giving, you help create opportunities for young people to build brighter futures 
           and drive lasting, positive change across Uganda. Together, we can transform lives and strengthen 
