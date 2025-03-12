@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --font-sans: var(--font-nunito);
-  /* --font-mono: var(--font-geist-mono); */
-}
 
 :root {
   --background: #ffffff;

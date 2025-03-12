@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Head from "next/head";
 
-export default function Home() {
+export default function WhoWeAre() {
 
   return (
     <>
@@ -90,84 +90,101 @@ export default function Home() {
             <p className="text-center text-[39pt] font-extrabold pt-14">Read more about our work</p>
         </div>
         {/* Our Team Section */}
-        <div className="relative bg-[#F6F4DE] w-full text-[#505A28] text-2xl flex flex-col h-300">
+        <div className="relative bg-[#F6F4DE] w-full text-[#505A28] text-2xl flex flex-col">
             <p className="text-[40pt] font-extrabold justify-start ml-[10%] mr-[10%] mb-5 mt-17">Our Team</p>
             <p className="text-[14pt] font-semibold justify-start ml-[10%] mr-[10%] mb-30">Sembeza Africa 
-                is led by a dedicated, highly competent team with diverse expertise in media, sports 
-                management, education, youth empowerment, conservation, and community outreach, all committed 
-                to transforming lives through holistic growth in young people globally and across Uganda. 
-                With a passion for innovation, inclusivity, and sustainability, they work tirelessly to 
-                uplift under-resourced communities, navigating challenges and maximizing impact with a 
-                collaborative, results-oriented approach.
+                is led by a dedicated, highly competent team...
             </p>
-            <div className="bg-[#505A28] ml-[5%] mr-[5%] mb-15 flex flex-wrap justify-center ">
-                <div className="m-10 border-2 border-[#F6F4DE] inline-block max-w-fit max-h-fit">
+            <div className="bg-[#505A28] mx-[5%] flex flex-wrap justify-center gap-4 p-4 md:p-10">
+                {/* Team Card Template */}
+                <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33%-1rem)] lg:w-[240px]">
+                <div className="border-2 border-[#F6F4DE] overflow-hidden">
+                    <div className="relative aspect-[3/4]"> {/* 3:4 aspect ratio */}
                     <Image 
                         src="/team-pics/WhatsAppImage2024-11-07at14_17_edited.avif"
-                        width={240}
-                        height={320}
+                        fill
                         alt="team picture 1"
+                        className="object-cover"
+                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 240px"
                     />
+                    </div>
                     <div className="p-4 bg-[#F6F4DE] text-[#505A28]">
-                        <p className="text-center font-extrabold text-[14pt]">Andrew Byekwaso</p>
-                        <p className="text-center text-[12pt]">CEO</p>
+                    <p className="text-center font-extrabold text-[14pt]">Andrew Byekwaso</p>
+                    <p className="text-center text-[12pt]">CEO</p>
                     </div>
                 </div>
-                <div className="m-10 border-2 border-[#F6F4DE] inline-block max-w-fit max-h-fit">
+                </div>
+                <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33%-1rem)] lg:w-[240px]">
+                <div className="border-2 border-[#F6F4DE] overflow-hidden">
+                    <div className="relative aspect-[3/4]"> {/* 3:4 aspect ratio */}
                     <Image 
                         src="/team-pics/WhatsAppImage2024-11-07at19_12_42.avif"
-                        width={240}
-                        height={320}
+                        fill
                         alt="team picture 2"
+                        className="object-cover"
+                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 240px"
                     />
+                    </div>
                     <div className="p-4 bg-[#F6F4DE] text-[#505A28]">
-                        <p className="text-center font-extrabold text-[14pt]">Rachel Byekwaso</p>
-                        <p className="text-center text-[12pt]">General Manager</p>
+                    <p className="text-center font-extrabold text-[14pt]">Rachel Byekwaso</p>
+                    <p className="text-center text-[12pt]">General Manager</p>
                     </div>
                 </div>
-                <div className="m-10 border-2 border-[#F6F4DE] inline-block max-w-fit max-h-fit">
+                </div>
+                <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33%-1rem)] lg:w-[240px]">
+                <div className="border-2 border-[#F6F4DE] overflow-hidden">
+                    <div className="relative aspect-[3/4]"> {/* 3:4 aspect ratio */}
                     <Image 
                         src="/team-pics/WhatsAppImage2024-11-08at07_56_34.avif"
-                        width={240}
-                        height={320}
+                        fill
                         alt="team picture 3"
+                        className="object-cover"
+                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 240px"
                     />
+                    </div>
                     <div className="p-4 bg-[#F6F4DE] text-[#505A28]">
-                        <p className="text-center font-extrabold text-[14pt]">Arnold Sserukera</p>
-                        <p className="text-center text-[12pt]">On-site Operations</p>
+                    <p className="text-center font-extrabold text-[14pt]">Arnold Sserukera</p>
+                    <p className="text-center text-[12pt]">On-Site Operations</p>
                     </div>
                 </div>
-                <div className="m-10 border-2 border-[#F6F4DE] inline-block max-w-fit max-h-fit">
+                </div>
+                <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33%-1rem)] lg:w-[240px]">
+                <div className="border-2 border-[#F6F4DE] overflow-hidden">
+                    <div className="relative aspect-[3/4]"> {/* 3:4 aspect ratio */}
                     <Image 
                         src="/team-pics/386B0368_edited.avif"
-                        width={240}
-                        height={320}
+                        fill
                         alt="team picture 4"
+                        className="object-cover"
+                        sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 240px"
                     />
+                    </div>
                     <div className="p-4 bg-[#F6F4DE] text-[#505A28]">
-                        <p className="text-center font-extrabold text-[14pt]">Wayne Thompson</p>
-                        <p className="text-center text-[12pt]">Quality Physical Educator</p>
+                    <p className="text-center font-extrabold text-[14pt]">Wayne Thompson</p>
+                    <p className="text-center text-[12pt]">Quality Physical Educator</p>
                     </div>
                 </div>
-                <div className="m-10 border-2 border-[#F6F4DE] inline-block max-w-fit max-h-fit">
-                    <Image 
-                        src="/team-pics/386B0296(1)_JPG.avif"
-                        width={240}
-                        height={320}
-                        alt="team picture 5"
-                    />
-                    <div className="p-4 bg-[#F6F4DE] text-[#505A28]">
-                        <p className="text-center font-extrabold text-[14pt]">Yannick Wolffensperger</p>
-                        <p className="text-center text-[12pt]">Volunteer Media Team</p>
+                </div>
+                <div className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33%-1rem)] lg:w-[240px]">
+                    <div className="border-2 border-[#F6F4DE] overflow-hidden">
+                        <div className="relative aspect-[3/4]"> {/* 3:4 aspect ratio */}
+                        <Image 
+                            src="/team-pics/386B0296(1)_JPG.avif"
+                            fill
+                            alt="team picture 5"
+                            className="object-cover"
+                            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 240px"
+                        />
+                        </div>
+                            <div className="p-4 bg-[#F6F4DE] text-[#505A28]">
+                            <p className="text-center font-extrabold text-[14pt]">Yannick Wolffensperger</p>
+                            <p className="text-center text-[12pt]">Volunteer Media Team</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-      
-
-
-      </div>
     </>
 
   );
