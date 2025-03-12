@@ -44,6 +44,7 @@ export default function Home() {
             fill
             style={{ objectFit: 'cover' }}
             alt="background image"
+            priority
           />
           {/* Text Overlay */}
           <div className="absolute flex flex-col left-[10%] top-48 z-10 text-[#F6F4DE] w-[50%] leading-none">
@@ -147,7 +148,7 @@ export default function Home() {
             </div>
             {/* caption goes here */}
             <Link 
-              href="/your-path-here" 
+              href="/who-we-are" 
               className="h-[80px] w-[300px] z-10 bg-[#505A28] text-[#F6F4DE] text-center block transition-all hover:bg-[#F79442]"
             >
               <p className="mt-6 text-[14pt] font-bold">Who we are</p>
@@ -164,7 +165,7 @@ export default function Home() {
             </div>
             {/* caption goes here */}
             <Link 
-              href="/your-path-here" 
+              href="/what-we-do" 
               className="h-[80px] w-[300px] z-10 bg-[#505A28] text-[#F6F4DE] text-center block transition-all hover:bg-[#F79442]"
             >
               <p className="mt-6 text-[14pt] font-bold">What we do</p>
@@ -181,7 +182,7 @@ export default function Home() {
             </div>
             {/* caption goes here */}
             <Link 
-              href="/your-path-here" 
+              href="/ways-to-help" 
               className="h-[80px] w-[300px] z-10 bg-[#505A28] text-[#F6F4DE] text-center block transition-all hover:bg-[#F79442]"
             >
               <p className="mt-6 text-[14pt] font-bold">Ways to help</p>
