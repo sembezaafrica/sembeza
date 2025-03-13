@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+transition-transform {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom breakpoint at 1000px */
+@media (min-width: 1000px) {
+  .hide-on-custom {
+    display: none !important;
+  }
+  .show-on-custom {
+    display: flex !important;
+  }
+}
+
