@@ -102,10 +102,10 @@ export default function Ubuntu() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
             <div className="rounded-lg p-5">
-              <div className="text-[50pt] font-extrabold text-center mt-5">
+              <div className="text-[50pt] font-extrabold text-center mt-5 text-[#F6F4DE]">
                 <h1>10.000</h1>
               </div>
-              <div className="text-[15pt] font-semibold text-center">
+              <div className="text-[15pt] font-semibold text-center text-[#F6F4DE]">
                 <p>
                   Young People Reached: The program has engaged 10,000 children
                   across various hubs through continuous sports and conservation
@@ -114,10 +114,10 @@ export default function Ubuntu() {
               </div>
             </div>
             <div>
-              <div className="text-[50pt] font-extrabold text-center mt-5">
+              <div className="text-[50pt] font-extrabold text-center mt-5 text-[#F6F4DE]">
                 <h1>4</h1>
               </div>
-              <div className="text-[15pt] font-semibold text-center">
+              <div className="text-[15pt] font-semibold text-center text-[#F6F4DE]">
                 <p>
                   Pilot hubs launched. Four hubs were successfully launched in
                   different districts: Kumi, Mukono, Gulu, and Iganga.
@@ -125,10 +125,10 @@ export default function Ubuntu() {
               </div>
             </div>
             <div>
-              <div className="text-[50pt] font-extrabold text-center mt-5">
+              <div className="text-[50pt] font-extrabold text-center mt-5 text-[#F6F4DE]">
                 <h1>€15.000</h1>
               </div>
-              <div className="text-[15pt] font-semibold text-center">
+              <div className="text-[15pt] font-semibold text-center text-[#F6F4DE]">
                 <p>
                   Donated so far towards sports empowerment, environmental
                   action, facility upgrades, and coach training, transforming

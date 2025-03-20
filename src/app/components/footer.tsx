@@ -20,7 +20,7 @@ export default function Footer() {
             <p className="text-[12pt]">L-1240 </p>
             <br></br>
             <p className="text-[12pt]">+352 621 495 483</p>
-            <p className="text-[12pt]">nfo@sembezaafrica.org</p>
+            <p className="text-[12pt]">info@sembezaafrica.org</p>
           </div>
         </div>
         <div className="ml-[5%] mb-5 mt-0 flex gap-x-1.5">

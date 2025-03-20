@@ -30,10 +30,10 @@ export default function Ubuntu() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
           <div className="bg-[#505A28] rounded-lg ">
-            <div className="font-extrabold text-[20pt] pl-5 pt-10 text-center">
+            <div className="font-extrabold text-[20pt] pl-5 pt-10 text-center text-[#F6F4DE]">
               <h2>Not just sports events</h2>
             </div>
-            <div className="font-bold text-[15pt] pl-5 pr-5 pt-5 pb-5">
+            <div className="font-bold text-[15pt] pl-5 pr-5 pt-5 pb-5 text-[#F6F4DE]">
               <p>
                 The Ubuntu Sports Festival is much more than just a sports
                 event: it is a transformative experience based on the values of
@@ -61,13 +61,13 @@ export default function Ubuntu() {
                 engaging in sports and conservation, participants experience
                 firsthand the importance of collaboration, cultural
                 preservation, and environmental responsibility.
-                <div className="font-extrabold text-[17pt]">
-                  “Ubuntu places emphasis on values of human solidarity,
-                  empathy, human dignity and the humaneness in every person, and
-                  that holds that a person is a person through others”.
-                  (Mugumbate & Nyanguru, 2015)
-                </div>
               </p>
+              <span className="font-extrabold text-[17pt]">
+                “Ubuntu places emphasis on values of human solidarity, empathy,
+                human dignity and the humaneness in every person, and that holds
+                that a person is a person through others”. (Mugumbate &
+                Nyanguru, 2015)
+              </span>
             </div>
           </div>
         </div>
@@ -112,22 +112,24 @@ export default function Ubuntu() {
           <div className="text-[#505A28] font-bold text-[15pt] mt-0 pl-5 pr-5 pt-5 pb-5">
             <div>
               <p>
-                Specifically, our goal is the achievement of the following SDGs:
-                <p>
-                  <strong> i. </strong> SDG 3: Good Health and Well-Being.
-                </p>
-                <p>
-                  <strong> ii. </strong> SDG 4: Quality Education
-                </p>
-                <p>
-                  <strong> iii. </strong> SDG 5: Gender Equality
-                </p>
-                <p>
-                  <strong> iv. </strong> SDG 10: Reduced Inequalities.
-                </p>
-                <p>
-                  <strong> v: </strong> SDG 13: Climate Action
-                </p>
+                Specifically, our goal is the achievement of the following SDGs:{" "}
+              </p>
+              <p>
+                <strong> i. </strong> SDG 3: Good Health and Well-Being.
+              </p>
+              <p>
+                <strong> ii. </strong> SDG 4: Quality Education
+              </p>
+              <p>
+                <strong> iii. </strong> SDG 5: Gender Equality
+              </p>
+              <p>
+                <strong> iv. </strong> SDG 10: Reduced Inequalities.
+              </p>
+              <p>
+                <strong> v: </strong> SDG 13: Climate Action
+              </p>
+              <p>
                 <strong> vi: </strong> SDG 15: Life on Land By staking our
                 energies and efforts, we hope to achieve SDG 17: Partnership for
                 the Goals.
@@ -164,10 +166,10 @@ export default function Ubuntu() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
             <div className="rounded-lg p-5">
-              <div className="text-[50pt] font-extrabold text-center mt-5">
+              <div className="text-[50pt] font-extrabold text-center mt-5 text-[#F6F4DE]">
                 <h1>1,000+</h1>
               </div>
-              <div className="text-[15pt] font-semibold text-center">
+              <div className="text-[15pt] font-semibold text-center text-[#F6F4DE]">
                 <p>
                   Participants from Uganda and various international communities
                   engaged in sports, conservation, and cultural activities.
@@ -175,10 +177,10 @@ export default function Ubuntu() {
               </div>
             </div>
             <div className="rounded-lg p-5">
-              <div className="text-[50pt] font-extrabold text-center mt-5">
+              <div className="text-[50pt] font-extrabold text-center mt-5 text-[#F6F4DE]">
                 <h1>5</h1>
               </div>
-              <div className="text-[15pt] font-semibold text-center">
+              <div className="text-[15pt] font-semibold text-center text-[#F6F4DE]">
                 <p>
                   International partnerships collaborating with organizations
                   from five different countries.
@@ -186,10 +188,10 @@ export default function Ubuntu() {
               </div>
             </div>
             <div className="rounded-lg p-5">
-              <div className="text-[50pt] font-extrabold text-center mt-5">
+              <div className="text-[50pt] font-extrabold text-center mt-5 text-[#F6F4DE]">
                 <h1>6</h1>
               </div>
-              <div className="text-[15pt] font-semibold text-center mb-10">
+              <div className="text-[15pt] font-semibold text-center mb-10 text-[#F6F4DE]">
                 <p>
                   Community-based partners working closely with six local
                   community partners to ensure the festival&#39;s reach and
