@@ -192,7 +192,7 @@ export default function Ubuntu() {
               <div className="text-[15pt] font-semibold text-center mb-10">
                 <p>
                   Community-based partners working closely with six local
-                  community partners to ensure the festival's reach and
+                  community partners to ensure the festival&#39;s reach and
                   effectiveness in promoting unity and development.
                 </p>
               </div>
