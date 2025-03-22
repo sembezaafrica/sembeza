@@ -61,22 +61,17 @@ export default function Home() {
             className="w-full h-[434px] object-cover object-[center_50%]"
           />
 
+          <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
+
           {/* Text Overlay */}
-          <div className="absolute left-[16.5%] top-30 z-10 text-[#ffffff] w-[50%]">
-            <h1 className="font-bold text-[50px] tracking-tight leading-none">
+          <div className="absolute left-[10%] top-30 z-10 text-[#ffffff] w-[80%]">
+            <h1 className="font-bold text-[50px] tracking-tight leading-none text-center">
               WHAT WE DO
             </h1>
-            <p className="mt-1 font-semibold text-[15pt] italic">
-              Sembeza Africa is committed to transforming
-            </p>
-            <p className="mt-[2px] font-semibold text-[15pt] italic">
-              lives in Uganda by using sports to promote health,
-            </p>
-            <p className="mt-[2px] font-semibold text-[15pt] italic">
-              education, community development, and
-            </p>
-            <p className="mt-[2px] font-semibold text-[15pt] italic">
-              environmental sustainability.
+            <p className="mt-1 font-semibold text-[15pt] italic text-center">
+              Sembeza Africa is committed to transforming lives in Uganda by
+              using sports to promote health, education, community development,
+              and environmental sustainability.
             </p>
           </div>
         </div>
@@ -128,7 +123,7 @@ export default function Home() {
                     // width={200}
                     // height={200}
                     fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ objectFit: "cover" }}
                     // className="rounded-lg object-cover w-full h-full transition duration-300 group-hover:opacity-80"
                   />
                   {/* Text Overlay */}
