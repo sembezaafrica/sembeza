@@ -4,6 +4,7 @@ import Image from "next/image";
 import Head from "next/head";
 import { useEffect, useRef, useState } from 'react';
 import Link from "next/link";
+import { landingPageVideoLinks } from "./lib/utils/general";
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -190,11 +191,28 @@ export default function Home() {
           </div>
 
         </div>
-        
 
+        <div className="relative bg-[#F6F4DE] w-full text-[#505A28] text-2xl flex flex-col">
+            <p className="text-[36pt] font-black text-center ml-[10%] mr-[10%] mb-5 mt-10">OUR VIDEOS</p>
+        </div>
 
+        <div className="relative grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 bg-[#F6F4DE] pt-10 pb-16 gap-2 justify-center justify-items-center px-4">
+          {landingPageVideoLinks.map((item, index) => (
+            <div 
+              key={index}
+              className=" h-[200px] aspect-video my-4"
+            >
+              <iframe
+                src={item}
+                title={`YouTube video player ${index + 1}`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full rounded-lg shadow-xl"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </>
-
   );
 }
