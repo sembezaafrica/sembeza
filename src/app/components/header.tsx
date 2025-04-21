@@ -79,6 +79,12 @@ function NavLinks({ pathname, className, onClick }: { pathname: string, classNam
       )}>
         What we do
       </Link>
+      <Link href="/ways-to-help" onClick={onClick} className={clsx(
+        pathname === '/ways-to-help' ? 'underline' : 'no-underline', // Fixed pathname match
+        'hover:underline transition-all md:text-xl p-2'
+      )}>
+        Ways to help
+      </Link>
       <a href="https://buy.stripe.com/14k2av3hm1ms5HOfYZ" onClick={onClick} className={
         'hover:bg-[#F79442] transition-all md:text-xl bg-[#505A28] rounded-2xl h-11 text-[#F6F4DE] p-2 pl-3 pr-3'
       }>

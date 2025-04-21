@@ -23,8 +23,16 @@ transition-transform {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Custom breakpoint at 1000px */
-@media (min-width: 1000px) {
+/* ================================== */
+/* ================================== */
+/* CUSTOM BREAKPOINTS */
+/* ================================== */
+/* ================================== */
+
+/* ----------------------------------------- */
+
+/* Header Navlinks */
+@media (min-width: 1150px) {
   .hide-on-custom {
     display: none !important;
   }
@@ -33,3 +41,49 @@ transition-transform {
   }
 }
 
+/* ----------------------------------------- */
+
+/* What We Do Cards */
+.whatwedo-grid {
+	/* Base style (mobile-first) - Corresponds to grid-cols-1 */
+  display: grid;
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 770px) {
+	.whatwedo-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr)); /* Corresponds to grid-cols-2 */
+	}
+}
+
+@media (min-width: 1170px) {
+	.whatwedo-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr)); /* Corresponds to grid-cols-3 */
+	}
+}
+
+@media (min-width: 1570px) {
+	.whatwedo-grid {
+		grid-template-columns: repeat(4, minmax(0, 1fr)); /* Corresponds to grid-cols-4 */
+	}
+}
+  
+@media (min-width: 1970px) {
+	.whatwedo-grid {
+		grid-template-columns: repeat(5, minmax(0, 1fr)); /* Corresponds to grid-cols-5 */
+	}
+}
+  
+@media (min-width: 2370px) {
+	.partner-grid {
+		grid-template-columns: repeat(6, minmax(0, 1fr)); /* Corresponds to grid-cols-6 */
+	}
+}
+
+/* ----------------------------------------- */
+
+/* ================================== */
+/* ================================== */
+/*  */
+/* ================================== */
+/* ================================== */
