@@ -3,71 +3,10 @@
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
+import { objectives } from "../lib/utils/general";
+import { whatWeDoItems } from "../lib/utils/general";
 
 export default function Home() {
-  const objectives = [
-    { text: ["Promoting physical", "well-being"] },
-    { text: ["Talent identification and", "Development"] },
-    { text: ["Gender equality and", "Inclusion"] },
-    { text: ["Health and Social", "Awareness Campaigns"] },
-    {
-      text: [
-        "Children and youth",
-        "empowerment through",
-        "education and sports",
-      ],
-    },
-    { text: ["Environmental", "Stewardship through", "Sports"] },
-    { text: ["Community Development"] },
-    { text: ["Wildlife Conservation and", "Awareness"] },
-  ];
-
-  const items = [
-    {
-      img: "/assets/ubuntu_1.jpeg",
-      link: "/what-we-do/ubuntu",
-      text: "Ubuntu Festival",
-      period: "Anually",
-      description: "The Ubuntu III Sports Festival \
-      of Culture 2025 is a weeklong event that aims \
-      to promote unity, physical well-being, cultural\
-      awareness, and youth empowerment through sports \
-      and traditional games.",
-    },
-    {
-      img: "/assets/football_1.jpeg",
-      link: "/what-we-do/football",
-      text: "TheBestBareFootLeague in the World ",
-      period: "2023 - Today",
-      description: "The Best Barefoot League celebrates \
-      raw talent and resilience, bringing players together \
-      to compete without shoes in an authentic, grassroots \
-      football experience. It unites communities globally, \
-      emphasizing passion over luxury."
-
-    },
-    {
-      img: "/assets/tree_1.jpeg",
-      link: "/what-we-do/treetwingo",
-      text: "Tree Twin Go",
-      period: "Anually",
-      description: "The Ubuntu III Sports Festival of \
-      Culture 2025 is a weeklong event that aims to \
-      promote unity, physical well-being, cultural awareness, \
-      and youth empowerment through sports and traditional games. "
-    },
-    {
-      img: "/assets/SPSP.jpg",
-      link: "/what-we-do/spsp",
-      text: "Satellite Primary Schools Programme",
-      period: "2021 - 2023",
-      description: "SPSP is an initiative that empowers \
-      youth through sports and environmental conservation, \
-      promoting physical activity, education, and \
-      sustainable practices across Uganda.",
-    },
-  ];
-
   return (
     <>
       <Head>
@@ -133,7 +72,7 @@ export default function Home() {
         {/* extra page info */}
         <div className="flex justify-center px-[10%] pt-10 pb-10">
           <div className="whatwedo-grid gap-2 justify-items-center">
-            {items.map((item, index) => (
+            {whatWeDoItems.map((item, index) => (
               <Link
                 key={index}
                 href={item.link}
