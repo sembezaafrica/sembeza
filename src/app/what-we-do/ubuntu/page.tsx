@@ -7,7 +7,7 @@ export default function Ubuntu() {
   return (
     <>
       <Head>
-        <title>Ubuntu</title>
+        <title>Ubuntu 1</title>
       </Head>
       <div className="bg-[#F6F4DE] min-h-screen pb-10">
         <div className="relative">
@@ -18,6 +18,7 @@ export default function Ubuntu() {
             width={1920}
             height={434}
             className="w-full h-[434px] object-cover object-[center_50%] rounded-lg"
+            priority
           />
         </div>
         <div className="text-[#505A28] ">

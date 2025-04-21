@@ -9,6 +9,7 @@ export default function WhoWeAre() {
     <>
       <Head>
         <title>Who we are</title>
+        
       </Head>
       <div className="flex flex-col">
 
@@ -86,14 +87,19 @@ export default function WhoWeAre() {
         </div>
 
         {/* Our Team Section */}
-        <div className="relative bg-[#505A28] w-full text-[#F6F4DE] text-2xl flex flex-col h-50">
-            <p className="text-center text-[39pt] font-extrabold pt-14">Read more about our work</p>
+        <div className="relative bg-[#505A28] w-full text-[#F6F4DE] text-2xl flex flex-col h-auto pt-14 pb-10 pl-[5%] pr-[5%]">
+            <p className="text-center text-[39pt] font-extrabold">Read more about our work</p>
         </div>
         {/* Our Team Section */}
         <div className="relative bg-[#F6F4DE] w-full text-[#505A28] text-2xl flex flex-col">
             <p className="text-[40pt] font-extrabold justify-start ml-[10%] mr-[10%] mb-5 mt-17">Our Team</p>
-            <p className="text-[14pt] font-semibold justify-start ml-[10%] mr-[10%] mb-30">Sembeza Africa 
-                is led by a dedicated, highly competent team...
+            <p className="text-[14pt] font-semibold justify-start ml-[10%] mr-[10%] mb-30">
+                Sembeza Africa is led by a dedicated, highly competent team with diverse expertise in media, 
+                sports management, education, youth empowerment, conservation, and community outreach, all 
+                committed to transforming lives through holistic growth in young people globally and across 
+                Uganda. With a passion for innovation, inclusivity, and sustainability, they work tirelessly 
+                to uplift under-resourced communities, navigating challenges and maximizing impact with a 
+                collaborative, results-oriented approach.
             </p>
             <div className="bg-[#505A28] mx-[5%] flex flex-wrap justify-center gap-4 p-4 md:p-10">
                 {/* Team Card Template */}
