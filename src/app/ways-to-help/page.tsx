@@ -26,7 +26,7 @@ export default function WaysToHelp() {
           </p>
         </div> */}
 
-        <div className="flex justify-center px-[10%] pt-15 pb-10 mt-5 bg-[#505A28]">
+        <div className="flex justify-center px-[10%] pt-15 pb-10 mt-5 mb-15 bg-[#505A28]">
           <div className="whatwedo-grid gap-2 justify-items-center">
             <div className="flex flex-col items-center w-[350px] h-[500px] bg-[#F6F4DE] mt-6 relative">
                 <div className="flex justify-center items-center w-24 h-24 rounded-full bg-[#F79442] mt-[-30px]">
